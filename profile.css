@@ -5,6 +5,7 @@ body {
   min-height: 100vh;
   scroll-behavior: smooth;
 }
+
 .card {
   background: white;
   border-radius: 20px;
@@ -67,6 +68,7 @@ button {
 button:hover {
   background-color: #4b00b5;
 }
+
 .section {
   background: white;
   margin: 30px auto;
@@ -77,6 +79,7 @@ button:hover {
   line-height: 1.8;
   font-size: 1.1rem;
 }
+
 .profile-header {
   display: flex;
   justify-content: space-between;
@@ -139,6 +142,7 @@ button:hover {
   left: 0;
   background: linear-gradient(135deg, #ff7eb9, #a18cd1, #78c5f9);
 }
+
 @media screen and (max-width: 768px) {
   .card {
     flex-direction: column;
@@ -185,3 +189,4 @@ button:hover {
     font-size: 2.8rem;
   }
 }
+
